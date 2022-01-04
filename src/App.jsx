@@ -4,11 +4,9 @@ import Paginador from "./Components/Paginador";
 import './App.css';
 
 import { useState, useEffect, Fragment } from "react";
-
+import React from 'react';
 
 const App = () => {
-
-    
 
     const[images, setImages] = useState([]);
     const[categoria, setCategoria] = useState('');
@@ -32,7 +30,6 @@ const App = () => {
 
     const {hits} = images;
 
-    console.log(pagina)
     return ( 
         <Fragment>
             <Formulario setCategoria = {setCategoria} />

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import React from 'react';
 
 const PaginadorContainer = styled.div`
     max-width: 30rem;

@@ -1,5 +1,5 @@
 import Image from "./Image";
-
+import React from 'react';
 import styled from "styled-components";
 
 const ImagesH = styled.h2`

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import stone from '../img/Stone.webp';
 import { useState } from "react";
+import React from 'react';
 
 const FormContainer = styled.div`
     height: 45rem;

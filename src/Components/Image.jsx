@@ -1,5 +1,6 @@
 import {AiOutlineHeart, AiOutlineArrowDown} from 'react-icons/ai';
 import styled from 'styled-components';
+import React from 'react';
 
 
 const ImageCard = styled.div`
